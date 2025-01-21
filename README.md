@@ -4,7 +4,7 @@ mithanlab-flux-quantized.ipynb is where I actually load and test the model in th
 
 Notes: 
 
--There were speed improvements, 25 seconds to ~19 seconds (underwhelming as I was expecting 3-10x improvement, but I may have done something incorrectly)
+-There were speed improvements, 25 seconds to ~19 seconds for 50 timesteps (underwhelming as I was expecting 3-10x improvement, but I may have done something incorrectly)
 
 -Memory improvements, from 31 gb allocated during inference to 9gb during inference (a welcome improvement, because I can now use less expensive gpus in cloud-compute) - The notebook will say 19 gb but this is because i had another model in memory at that time
 
